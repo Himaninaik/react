@@ -17,8 +17,8 @@ function Contact(){
                 form.current.reset();
             }, (error) => {
                 console.log(error.text);
-                alert("please enter mail");
-                form.current.reset();
+                
+                
            
             });
         };
@@ -33,15 +33,15 @@ function Contact(){
 
             <table align="center">
             <tr>
-                <td><input type="text" name="user-name" placeholder="Enter your Name"/></td>
+                <td><input type="text" name="user-name" placeholder="Enter your Name" required/></td>
                 </tr>
                 <br></br>
                 <tr>
-                <td><input type="text" name="email"placeholder="Enter your email"/></td>
+                <td><input type="text" name="email"placeholder="Enter your email" required/></td>
                 </tr>
                 <br></br>
                 <tr> 
-                <td><textarea  row="5" cols="25" name="message" placeholder="Enter your message"/></td>
+                <td><textarea  row="5" cols="25" name="message" placeholder="Enter your message" required/></td>
                 </tr>
                 <br></br>
                 <div className="but">
