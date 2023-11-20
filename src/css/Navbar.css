@@ -1,0 +1,86 @@
+body{
+  background-color:black;
+  overflow-x: hidden;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #36454f;
+
+  }
+  .Hamburger{
+    
+    background-color: #36454f;
+    
+  }
+
+
+    
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: black;
+  }
+  
+  a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  a:hover {
+    background-color:black;
+  }
+  
+  
+  .sidebar{
+       float:left;
+       top: 0%;
+       left: 0%;
+       height:400%;
+       background-color: #36454f;
+       
+       position: fixed;
+       display:block;
+      backdrop-filter: blur(2px);
+      
+      
+  }
+  .closebtn{
+    top:0;
+    right: 50px;
+    font-size: 35px;
+    margin-right: 100px;
+  color: #fff;
+  cursor: pointer;
+  }
+  .icon img{
+    width:30px;
+    height:30px;
+    margin:10px;
+    background-color: bisque;
+  }
+  @media only screen and  (max-width:600px){
+  .desktop{
+    display:none;
+
+}}
+@media only screen and  (min-width:600px){
+  .Hamburger,.sidebar{
+    display: none;
+  }
+}

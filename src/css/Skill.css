@@ -1,0 +1,34 @@
+h1{
+    color:white;
+    text-align: center;
+}
+
+.image{
+    width:30%;
+    height:30%;
+    padding: 10%;
+    display: flex;
+   margin :auto;
+   padding-right: 150px;
+    
+    border: 5px solid white;
+    background-color: white;
+}
+@media (min-width: 500px){
+    .image{
+        width:30%;
+    height:30%;
+    padding: 10%;
+    display: flex;
+   margin :auto;
+   padding-right: 150px;
+    
+    border: 5px solid white;
+    background-color: #36454f;
+    }
+ }
+ @media (min-width:500px){
+    .Skill{
+        font-size: 20px;
+    }
+ }
