@@ -155,7 +155,15 @@ loc==='/certification'?
             
           <Link to='/Qualification' >Qualification</Link>
             }
+            {
 
+          
+ loc==='/Education'?
+                  ""
+                  :
+            
+          <Link to='/Education' >Education</Link>
+            }
           </span>
         </div>
       )}

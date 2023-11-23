@@ -5,15 +5,18 @@ body{
 ul {
     list-style-type: none;
     margin: 0;
+    border: 100px;
     padding: 10px;
     overflow: hidden;
-    background-color: #36454f;
+    /* background-color: #36454f; */
+    width:100%;
     
   }
   .Hamburger{
     
-    background-color: #36454f;
-    
+    /* background-color: #36454f; */
+    height:50px;
+    width:100%;
   }
 
 
@@ -32,7 +35,7 @@ ul {
   }
   
   li a:hover {
-    background-color: black;
+    background-color: purple;
   }
   
   a{
@@ -77,7 +80,7 @@ ul {
   @media only screen and  (max-width:600px){
   .desktop{
     display:none;
-
+    padding-left: 100%;
 }}
 @media only screen and  (min-width:600px){
   .Hamburger,.sidebar{
