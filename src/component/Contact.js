@@ -1,19 +1,21 @@
-import React, { useRef } from 'react';
+import React, { useRef ,useState} from "react";
 import emailjs from '@emailjs/browser';
 import "../css/Contact.css";
-
+import Loader from "./Loader";
+import "../css/loader.css";
 function Contact(){
     
 
     const form = useRef();
-      
+    const [Loading,setLoading]=useState(false);
         const sendEmail = (e) => {
           e.preventDefault();
-      
+      setLoading(true);
           emailjs.sendForm('service_ibfi8ux', 'template_3irj8uh', form.current, '4P98HAmJE0lD7YAKA')
             .then((result) => {
                 console.log(result.text);
                 alert("sent email succesfully");
+                setLoading(false);
                 form.current.reset();
             }, (error) => {
                 console.log(error.text);
@@ -46,12 +48,23 @@ function Contact(){
                 <br></br>
                 <div className="but">
                 <tr>
+                    {
+                        Loading?
+                        "":
+                    
+
                     <button>Send Message</button>
+}
                 </tr>
                
                 </div>
                 </table>
+{
 
+    Loading?
+    <Loader/>:null
+          
+}
        </form>
 </div>
         </>

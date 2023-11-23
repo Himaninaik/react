@@ -5,10 +5,10 @@ body{
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     overflow: hidden;
     background-color: #36454f;
-
+    
   }
   .Hamburger{
     
@@ -65,8 +65,8 @@ ul {
     right: 50px;
     font-size: 35px;
     margin-right: 100px;
-  color: #fff;
-  cursor: pointer;
+   color: #fff;
+    cursor: pointer;
   }
   .icon img{
     width:30px;

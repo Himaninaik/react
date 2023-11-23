@@ -6,7 +6,7 @@ import "../css/Skill.css";
 function Skill(){
     return(
         <>
-        <br></br><br></br><br></br><br></br><br></br>
+        <br></br>
         <div className="Skill">
             <h1><u>Skills:</u></h1>
 

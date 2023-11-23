@@ -9,6 +9,8 @@ import Contact from "./component/Contact";
 
 import Certification from "./component/Certification";
 import Qualification from "./component/Qualification";
+import Education from "./component/Education";
+
 function App() {
   return (
     <div className="Navbar">
@@ -21,7 +23,9 @@ function App() {
         <Route path='/skill' element={<Skill />}/>
         <Route path='/contact' element={< Contact/>}/>
         <Route path='/certification' element={< Certification/>}/>
+        <Route path='/Education' element={< Education/>}/>
         <Route path='/Qualification' element={< Qualification/>}/>
+       
       </Routes>
       </BrowserRouter>
       {/* <div className="About">

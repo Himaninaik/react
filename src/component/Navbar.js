@@ -86,7 +86,15 @@ loc==='/Cerification'?
           <Link to='/Qualification' >Qualification</Link>
             }
           </li>
+          <li>
+            {
 
+            loc==='/Education'?
+            ""
+            :
+          <Link to='/Education' >Education</Link>
+            }
+          </li>
           </ul>
           </div>
           <div className="Hamburger">

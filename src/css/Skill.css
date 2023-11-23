@@ -1,5 +1,5 @@
 h1{
-    color:white;
+    color:bisque;
     text-align: center;
 }
 
@@ -12,9 +12,9 @@ h1{
    padding-right: 150px;
     
     border: 5px solid white;
-    background-color: white;
+    background-color:#36454f;
 }
-@media (min-width: 500px){
+@media (min-width: 600px){
     .image{
         width:30%;
     height:30%;
@@ -27,8 +27,9 @@ h1{
     background-color: #36454f;
     }
  }
- @media (min-width:500px){
+ @media (min-width:600px){
     .Skill{
         font-size: 20px;
+        
     }
  }
