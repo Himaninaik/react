@@ -21,10 +21,11 @@ function App() {
         <Route path='/' element={<Home />}/>
         <Route path='/about' element={<About />}/>
         <Route path='/skill' element={<Skill />}/>
-        <Route path='/contact' element={< Contact/>}/>
+        
         <Route path='/certification' element={< Certification/>}/>
         <Route path='/Education' element={< Education/>}/>
         <Route path='/Qualification' element={< Qualification/>}/>
+        <Route path='/contact' element={< Contact/>}/>
        
       </Routes>
       </BrowserRouter>

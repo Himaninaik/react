@@ -3,6 +3,8 @@ import svgcss from "../image/csss.png";
 import svgjava from "../image/javas.png";
 import svgpythoon from "../image/pythoonn.png";
 import "../css/Skill.css";
+// import Footer from "./Footer";
+// import '../css/Footer.css';
 function Skill(){
     return(
         <>
@@ -16,6 +18,7 @@ function Skill(){
             <img src={svgcss} alt="csss" />
             <img src={svgjava} alt="jvas" />
             <img src={svgpythoon} alt="pyt" />
+            {/* <Footer/> */}
         </div>
         </div>
         </>

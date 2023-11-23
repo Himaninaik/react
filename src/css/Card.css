@@ -17,9 +17,10 @@
      margin-left: 15px; 
     background: #bbb;
     color: black;
-    border: 5px solid purple;
+    border: 3px solid black;
     transition: transform 0.5s; 
-  
+  border-radius: 20px  ;
+box-shadow: 8px 5px 8px 4px #bbb;
    justify-content: center;
 }
 .card h2{
@@ -32,9 +33,9 @@ p{
     margin-bottom:20px;
 }
 .card img{
-    margin-bottom: 1px;
-    margin-top: 2px;
-    height: 50px;
+    /* margin-bottom: 1px; */
+    margin-top: 5px;
+    height: 40px;
 }  
 .card h2{
     font-size: 30px;
@@ -49,6 +50,7 @@ p{
       align-items: center;
       margin-top:100px;
       height: 600px;
+
         }
         .card-list{
             display: flex;
