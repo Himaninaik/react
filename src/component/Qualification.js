@@ -2,7 +2,7 @@ import "../css/Qualification.css";
 function Qualification(){
     return(
         <>
-        
+        <div >
         <h1><u>Qualificatiom</u></h1>
         <div className="border">
         <table align="center">
@@ -47,6 +47,7 @@ function Qualification(){
                 
             </tr>
         </table>
+        </div>
         </div>
         </>
     );

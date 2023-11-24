@@ -21,7 +21,6 @@ function App() {
         <Route path='/' element={<Home />}/>
         <Route path='/about' element={<About />}/>
         <Route path='/skill' element={<Skill />}/>
-        
         <Route path='/certification' element={< Certification/>}/>
         <Route path='/Education' element={< Education/>}/>
         <Route path='/Qualification' element={< Qualification/>}/>
@@ -29,13 +28,7 @@ function App() {
        
       </Routes>
       </BrowserRouter>
-      {/* <div className="About">
-        <About/>
-      </div>
-      <div className="Skill">
-        <Skill/>
-      </div>
-      <img src={natureimage} alt="virat" /> */}
+      
       
     </div>
   );

@@ -7,7 +7,14 @@ h2{
 }
 .border   {
     border-collapse: collapse;
+    /* height: 400px; */
 }
 td{
     color:bisque;
+}
+@media(max-width:500px){
+    /* .border{
+        height: 600px;
+        
+    } */
 }

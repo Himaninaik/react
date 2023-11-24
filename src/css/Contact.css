@@ -2,9 +2,21 @@ button {
     color:purple;
 }
 .form td{
-    border:1px solid white;;
+    border:1px solid bisque;
     background-color: #36454f;
 }
 h1{
-    color:white;;
+    color:bisque;
+}
+/* form{
+    height: 56vh;
+} */
+@media screen and (max-width:600px){
+    form{
+        /* height: 73vh; */
+    } 
+   
+}
+.but{
+    align-self:center;
 }

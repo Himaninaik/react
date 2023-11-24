@@ -22,8 +22,9 @@ function Home(){
 <Education/>
 
 <Contact/>
-<Footer/>
-<div className="bar"></div>
+       <Footer/> 
+
+
       </>
     );
 }

@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser';
 import "../css/Contact.css";
 import Loader from "./Loader";
 import "../css/loader.css";
-import '../css/Footer.css';
+
 function Contact(){
     
 

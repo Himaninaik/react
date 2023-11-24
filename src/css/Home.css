@@ -41,6 +41,23 @@
       var(--color-1)-19%
    );
    }
+   /* .new 
+   .new::after{
+        content: "";
+        animation: spin 2s linear infinite;
+   }
+   @keyframes new{
+     0%{
+      content:"Iam";
+
+     }
+     40%{
+      content: "Himani";
+     }
+     80%{
+      content: "Naik";
+     }
+   } */
    .bar{
       overflow: hidden;
    }
@@ -48,6 +65,11 @@
 h2{
    text-align: center;
 }
+h2 span{
+   position: relative;
+   animation: bounce ,9s ease infinite alternate;
+}
 
-
-
+/* .new:hover{
+   transform: translateY(50px);
+} */

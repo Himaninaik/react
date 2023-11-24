@@ -3,16 +3,14 @@ import svgcss from "../image/csss.png";
 import svgjava from "../image/javas.png";
 import svgpythoon from "../image/pythoonn.png";
 import "../css/Skill.css";
-// import Footer from "./Footer";
-// import '../css/Footer.css';
 function Skill(){
     return(
         <>
         <br></br>
+        {/* div className="skill1" */}
         <div className="Skill">
+        <div className="skill1">
             <h1><u>Skills:</u></h1>
-
-            
             <div className="image">
             <img src={svgicon} alt="Htm" />
             <img src={svgcss} alt="csss" />
@@ -20,7 +18,11 @@ function Skill(){
             <img src={svgpythoon} alt="pyt" />
             {/* <Footer/> */}
         </div>
+
+       
         </div>
+        </div>
+        
         </>
     );
 }

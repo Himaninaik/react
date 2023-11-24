@@ -1,14 +1,18 @@
 .certi img{
     width:40%;
     height:400%;
-    
     display: block;
-   margin :auto;
+    margin :auto;
    padding-right: 12px;
-    
     border: 5px solid white;
     background-color: purple;
 }
+
 h1{
     color:bisque;
+}
+@media screen and (max-width:600px){
+    .cert{
+        height: 95vh;
+    }
 }
