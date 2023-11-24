@@ -22,8 +22,7 @@ function Home(){
 <Education/>
 
 <Contact/>
-       <Footer/> 
-
+{/* <Footer/> */}
 
       </>
     );

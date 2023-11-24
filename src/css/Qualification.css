@@ -5,16 +5,21 @@ h2{
     background-color: #36454f;
     border-collapse: collapse;
 }
-.border   {
+.border  tr {
     border-collapse: collapse;
-    /* height: 400px; */
+    height: 50px;
+    width:20px;
 }
 td{
     color:bisque;
+
 }
 @media(max-width:500px){
     /* .border{
         height: 600px;
         
     } */
+}
+.him{
+    height: 700px;
 }

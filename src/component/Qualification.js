@@ -1,8 +1,8 @@
 import "../css/Qualification.css";
 function Qualification(){
     return(
-        <>
-        <div >
+        <><br></br><br></br><br></br><br></br><br></br>
+        <div className="him" >
         <h1><u>Qualificatiom</u></h1>
         <div className="border">
         <table align="center">

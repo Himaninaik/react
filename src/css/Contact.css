@@ -3,7 +3,7 @@ button {
 }
 .form td{
     border:1px solid bisque;
-    background-color: #36454f;
+    background-color: purple;
 }
 h1{
     color:bisque;
@@ -13,10 +13,28 @@ h1{
 } */
 @media screen and (max-width:600px){
     form{
-        /* height: 73vh; */
+        height: 74vh;
+        
     } 
    
 }
 .but{
     align-self:center;
+}
+.form tr{
+    height: 60px ;
+    box-shadow: 4px 8px 4px 8px solid red;
+}
+.form td{
+    height: 60px;
+    width: 50px;
+   
+}
+.form input{
+    height: 60px;
+    width: 200px;
+}
+.form textarea{
+    height: 60px;
+    width: 200px;
 }
