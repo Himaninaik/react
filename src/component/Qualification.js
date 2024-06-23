@@ -1,14 +1,14 @@
 import "../css/Qualification.css";
 function Qualification(){
     return(
-        <><br></br><br></br><br></br><br></br><br></br>
+        <>
         <div className="him" >
         <h1><u>Qualificatiom</u></h1>
         <div className="border">
         <table align="center">
             <tr>
                 <td>10th</td>
-                <td>80%</td>
+                <td>79.52%</td>
                 <td>SHREE BHARATI SCHOOL</td>
             </tr>
             <tr>
@@ -18,7 +18,7 @@ function Qualification(){
             </tr>
             <tr>
                 <td>2nd PUC</td>
-                <td>79%</td>
+                <td>78.3%</td>
                 <td>SDM PU COLLEGE</td>
             </tr>
             </table>
@@ -39,11 +39,11 @@ function Qualification(){
             </tr>
             <tr>
                 <td>3rd SEM</td>
-                <td>7.4</td>
+                <td>7.43</td>
             </tr>
             <tr>
                 <td>4th SEM</td>
-                <td>7.8</td>
+                <td>7.68</td>
                 
             </tr>
         </table>

@@ -1,7 +1,6 @@
 
 import "../css/Card.css";
 import grad from "../image/student.gif"
-// import css from "../icons/css.svg"
 function Card({Education1}) {
   
   {
