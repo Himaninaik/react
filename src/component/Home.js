@@ -5,7 +5,7 @@ import About from  "./About";
 import "../css/Home.css";
 import My from "./My";
 import Certification from "./Certification";
-import Qualification from "./Qualification";
+// import Qualification from "./Qualification";
 import Education from "./Education";
 
 import Contact from "./Contact";
@@ -18,7 +18,7 @@ function Home(){
       <Skill/>
 
 <Certification/>
-<Qualification/>
+{/* <Qualification/> */}
 <Education/>
 
 <Contact/>

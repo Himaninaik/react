@@ -15,11 +15,11 @@ td{
 
 }
 @media(max-width:500px){
-    /* .border{
+     .border{
         height: 600px;
         
-    } */
-}
+    } 
+ }
 .him{
     height: 700px;
-}
+} 

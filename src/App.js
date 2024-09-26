@@ -8,7 +8,7 @@ import Skill from "./component/Skill";
 import Contact from "./component/Contact";
 import Footer from "./component/Footer";
 import Certification from "./component/Certification";
-import Qualification from "./component/Qualification";
+// import Qualification from "./component/Qualification";
 import Education from "./component/Education";
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
         <Route path='/skill' element={<Skill />}/>
         <Route path='/certification' element={< Certification/>}/>
         <Route path='/Education' element={< Education/>}/>
-        <Route path='/Qualification' element={< Qualification/>}/>
+        {/* <Route path='/Qualification' element={< Qualification/>}/> */}
         <Route path='/contact' element={< Contact/>}/>
        
       </Routes>

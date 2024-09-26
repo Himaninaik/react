@@ -77,7 +77,7 @@ loc==='/Cerification'?
           <Link to='/Contact' >Contact</Link>
             }
           </li>
-          <li>
+          {/* <li>
             {
                   loc==='/Qualification'?
                   ""
@@ -85,7 +85,7 @@ loc==='/Cerification'?
             
           <Link to='/Qualification' >Qualification</Link>
             }
-          </li>
+          </li> */}
           <li>
             {
 
@@ -148,13 +148,13 @@ loc==='/certification'?
   :
           <Link to='/contact'>Contact</Link>
 }
-{
+{/* {
                   loc==='/Qualification'?
                   ""
                   :
             
           <Link to='/Qualification' >Qualification</Link>
-            }
+            } */}
             {
 
           
